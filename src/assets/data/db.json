@@ -1,0 +1,152 @@
+{
+  "products": [
+    {
+      "id": 11,
+      "name": "perfume Oil",
+      "categoryId": 11,
+      "description": "perfume oil description sdmlkfdflmk",
+      "unitPrice": 13,
+      "unitsInStock": 300,
+      "active": 1,
+      "sku": "fsd",
+      "dateCreated":"2023-01-07",
+      "lastUpdated": "2023-01-09",
+      "imageUrl": "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Brown Perfume",
+      "categoryId": 12,
+      "description": "perfume oil description sdmlkfdflmk",
+      "unitPrice": 40,
+      "unitsInStock": 300,
+      "active": 1,
+      "sku": "fsd",
+      "dateCreated":"2023-01-07",
+      "lastUpdated": "2023-01-09",
+      "imageUrl": "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Fog Scent Xpressio Perfume",
+      "categoryId": 13,
+      "description": "perfume oil description sdmlkfdflmk",
+      "unitPrice": 13,
+      "unitsInStock": 300,
+      "active": 1,
+      "sku": "fsd",
+      "dateCreated":"2023-01-07",
+      "lastUpdated": "2023-01-09",
+      "imageUrl": "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+    },
+    {
+      "id": 14,
+      "name": "Non-Alcoholic Concentrated Perfume Oil",
+      "categoryId": 14,
+      "description": "perfume oil description sdmlkfdflmk",
+      "unitPrice": 120,
+      "unitsInStock": 300,
+      "active": 1,
+      "sku": "fsd",
+      "dateCreated":"2023-01-07",
+      "lastUpdated": "2023-01-09",
+      "imageUrl": "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Eau De Perfume Spray",
+      "categoryId": 11,
+      "description": "perfume oil description sdmlkfdflmk",
+      "unitPrice": 30,
+      "unitsInStock": 300,
+      "active": 1,
+      "sku": "fsd",
+      "dateCreated":"2023-01-07",
+      "lastUpdated": "2023-01-09",
+      "imageUrl": "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Hyaluronic Acid Serum",
+      "categoryId": 14,
+      "description": "perfume oil description sdmlkfdflmk",
+      "unitPrice": 19,
+      "unitsInStock": 300,
+      "active": 1,
+      "sku": "fsd",
+      "dateCreated":"2023-01-07",
+      "lastUpdated": "2023-01-09",
+      "imageUrl": "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Tree Oil 30ml",
+      "categoryId": 11,
+      "description": "perfume oil description sdmlkfdflmk",
+      "unitPrice": 12,
+      "unitsInStock": 300,
+      "active": 1,
+      "sku": "fsd",
+      "dateCreated":"2023-01-07",
+      "lastUpdated": "2023-01-09",
+      "imageUrl": "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Oil Free Moisturizer 100ml",
+      "categoryId": 11,
+      "description": "perfume oil description sdmlkfdflmk",
+      "unitPrice": 40,
+      "unitsInStock": 300,
+      "active": 1,
+      "sku": "fsd",
+      "dateCreated":"2023-01-07",
+      "lastUpdated": "2023-01-09",
+      "imageUrl": "https://i.dummyjson.com/data/products/18/thumbnail.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Skin Beauty Serum.",
+      "categoryId": 11,
+      "description": "perfume oil description sdmlkfdflmk",
+      "unitPrice": 46,
+      "unitsInStock": 300,
+      "active": 1,
+      "sku": "fsd",
+      "dateCreated":"2023-01-07",
+      "lastUpdated": "2023-01-09",
+      "imageUrl": "https://i.dummyjson.com/data/products/19/thumbnail.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Freckle Treatment Cream- 15gm",
+      "categoryId": 13,
+      "description": "perfume oil description sdmlkfdflmk",
+      "unitPrice": 70,
+      "unitsInStock": 300,
+      "active": 1,
+      "sku": "fsd",
+      "dateCreated":"2023-01-07",
+      "lastUpdated": "2023-01-09",
+      "imageUrl": "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 11,
+      "categoryName": "perfume Oil"
+    },
+    {
+      "id": 12,
+      "categoryName": "Brown Perfume"
+    },
+    {
+      "id": 13,
+      "categoryName": "Fog Scent Xpressio Perfume"
+    },
+    {
+      "id": 14,
+      "categoryName": "Non-Alcoholic Concentrated Perfume Oil"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<div class="row search-item" *ngFor="let item of searchResult">
+  <div>
+    <img src="{{item.imageUrl}}" alt="">
+  </div>
+  <div class="col-sm-8 details">
+    <h6>{{item.name}}</h6>
+    <p><b>Price:{{item.unitPrice}}</b></p>
+    <p>{{item.description}}</p>
+  </div>
+</div>
+
+
+
+<!--<form class="form-header" onsubmit="return false;" method="GET">-->
+<!--    <input #searchInput class="au-input au-input-xl" type="text" name="search"-->
+<!--      placeholder="Search ..." (keyup.enter) = "searchProducts(searchInput.value)" />-->
+<!--    <button #searchButton class="au-btn-submit" type="submit" (click) = "searchProducts(searchInput.value)">-->
+<!--      Search-->
+<!--    </button>-->
+<!--</form>-->

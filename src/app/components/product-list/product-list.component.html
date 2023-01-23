@@ -1,0 +1,34 @@
+<!-- MAIN CONTENT-->
+
+<div class="main-content">
+    <div class="section-content section-content-p30">
+        <div class="container-fluid">
+            <div class="row">
+              <form class="form-header" onsubmit="return false;" method="GET">
+                <input #searchInput class="au-input au-input-xl" type="text" name="search"
+                       placeholder="Search ..." (keyup.enter) = "searchProducts(searchInput.value)" />
+                <button #searchButton class="au-btn-submit" type="submit" (click) = "searchProducts(searchInput.value)">
+                  Search
+                </button>
+              </form>
+                <div class="col-md-3" *ngFor = "let productTemp of products">
+                    <div class="product-box">
+                        <a routerLink="/products/{{ productTemp.id }}">
+                            <img src="{{ productTemp.imageUrl }}" class="img-responsive">
+                        </a>
+                        <a routerLink="/products/{{ productTemp.id }}">
+                            <h1>{{ productTemp.name }}</h1>
+                        </a>
+                        <h2>Buy it fast! Only {{productTemp.unitsInStock}} units left!</h2>
+                        <div class="price">{{ productTemp.unitPrice | currency:'INR':'symbol-narrow'}}</div>
+                        <a class="primary-btn" (click)="addToCart(productTemp)">Add to cart</a>
+                    </div>
+                </div>
+
+                <div *ngIf="products?.length == 0" class="alert alert-warning col-md-12" role="alert">
+                    Oops! No products found!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
